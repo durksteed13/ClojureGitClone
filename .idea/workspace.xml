@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b55d62f-4e7c-49ce-9cc6-5d4ba7fa63f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DepsProjectDetails">
+    <option name="cachedModuleDetails">
+      <map>
+        <entry key="$PROJECT_DIR$/deps.edn">
+          <value>
+            <ModuleDetails>
+              <option name="details" value="{:paths [&quot;src&quot;], :deps {org.clojure/clojure {:mvn/version &quot;1.10.1&quot;}}, :aliases {:deps {:extra-deps {org.clojure/tools.deps.alpha {:mvn/version &quot;0.8.599&quot;}}}, :test {:extra-paths [&quot;test&quot;]}}, :mvn/repos {&quot;central&quot; {:url &quot;https://repo1.maven.org/maven2/&quot;}, &quot;clojars&quot; {:url &quot;https://repo.clojars.org/&quot;}}, :system-aliases #{:test :deps}, :deps-tree {org.clojure/clojure {:mvn/version &quot;1.10.1&quot;, :deps/manifest :mvn, :paths [&quot;/Users/durksteed/.m2/repository/org/clojure/clojure/1.10.1/clojure-1.10.1.jar&quot;], :children (org.clojure/spec.alpha org.clojure/core.specs.alpha)}, org.clojure/spec.alpha {:mvn/version &quot;0.2.176&quot;, :deps/manifest :mvn, :paths [&quot;/Users/durksteed/.m2/repository/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.jar&quot;], :dependents [org.clojure/clojure], :children ()}, org.clojure/core.specs.alpha {:mvn/version &quot;0.2.44&quot;, :deps/manifest :mvn, :paths [&quot;/Users/durksteed/.m2/repository/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.jar&quot;], :dependents [org.clojure/clojure], :children ()}}, :test-paths [&quot;test&quot;]}" />
+              <option name="hash" value="26dfd071c17c07cc3ea8c52158682789" />
+            </ModuleDetails>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XiLrurv0iSQhTUfDbBEL8gEEk7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="cursive.last.file.extension./Users/durksteed/IdeaProjects/idiot/src" value="clj" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReplState" timestamp="1595477595917">{:repl-history {:ide [], :local [{:command &quot;(.getBytes (str \&quot;tree \&quot; length \&quot;\\000\&quot;))&quot;, :offset 39, :ns &quot;idiot&quot;} {:command &quot;(concat (.getBytes (str \&quot;tree \&quot; length \&quot;\\000\&quot;)) testentry)&quot;, :offset 58, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes (str \&quot;tree \&quot; length \&quot;\\000\&quot;)) testentry))))&quot;, :offset 99, :ns &quot;idiot&quot;} {:command &quot;(sha-bytes (byte-array (concat (.getBytes (str \&quot;tree \&quot; length \&quot;\\000\&quot;)) testentry)))&quot;, :offset 83, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (header-blob \&quot;dir/file\&quot;)))&quot;, :offset 52, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (header-blob (slurp \&quot;dir/file\&quot;))))&quot;, :offset 60, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (.getBytes (header-blob (slurp \&quot;dir/file\&quot;)))))&quot;, :offset 72, :ns &quot;idiot&quot;} {:command &quot;(sha-bytes (.getBytes (header-blob (slurp \&quot;dir/file\&quot;))))&quot;, :offset 56, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;) address)))&quot;, :offset 85, :ns &quot;idiot&quot;} {:command &quot;(file-entry \&quot;dir/file\&quot;)&quot;, :offset 23, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\0001\&quot;) (file-entry \&quot;dir/file\&quot;) address))))&quot;, :offset 108, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\0001\&quot;)  address))))&quot;, :offset 85, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\0001\&quot; (file-entry \&quot;dir/file\&quot;)) address))))&quot;, :offset 108, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\0001\&quot;) (file-entry \&quot;dir/file\&quot;)))))&quot;, :offset 100, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\000100644 file\\000\&quot;) address))))&quot;, :offset 98, :ns &quot;idiot&quot;} {:command &quot;(concat \&quot;100644 file\\000\&quot; address)&quot;, :offset 34, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\000\&quot;) (file-entry \&quot;dir/file\&quot;)))))&quot;, :offset 99, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (concat (.getBytes \&quot;tree 32\\000\&quot;) ))))&quot;, :offset 76, :ns &quot;idiot&quot;} {:command &quot;(to-hex-string (sha-bytes (byte-array (.getBytes (concat \&quot;tree 32\\000\&quot; (file-entry \&quot;dir/file\&quot;))))))&quot;, :offset 99, :ns &quot;idiot&quot;} {:command &quot;(concat \&quot;tree 32\\000\&quot; (file-entry \&quot;dir/file\&quot;))&quot;, :offset 46, :ns &quot;idiot&quot;} {:command &quot;(.getBytes (concat \&quot;tree 32\\000\&quot; (file-entry \&quot;dir/file\&quot;)))&quot;, :offset 58, :ns &quot;idiot&quot;} {:command &quot;(vector? {1 2 3})&quot;, :offset 17, :ns &quot;idiot&quot;} {:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;idiot&quot;} {:command &quot;(vector? [1 2 3])&quot;, :offset 17, :ns &quot;idiot&quot;} {:command &quot;(vector? {1 2})&quot;, :offset 15, :ns &quot;idiot&quot;} {:command &quot;(vector? {1 2 3 4})&quot;, :offset 19, :ns &quot;idiot&quot;} {:command &quot;(vector? {1 2 4})&quot;, :offset 17, :ns &quot;idiot&quot;} {:command &quot;(vector? #{1 2 3})&quot;, :offset 18, :ns &quot;idiot&quot;} {:command &quot;(list? [1 2 3])&quot;, :offset 15, :ns &quot;idiot&quot;} {:command &quot;(list? (list 1 2 3))&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;(list? '(1 2 3))&quot;, :offset 16, :ns &quot;idiot&quot;} {:command &quot;(list? &lt; 1 2 3 &gt;)&quot;, :offset 17, :ns &quot;idiot&quot;} {:command &quot;(list? &lt; 1 2 &gt;)&quot;, :offset 15, :ns &quot;idiot&quot;} {:command &quot;(string? #\&quot;a string\&quot;)&quot;, :offset 21, :ns &quot;idiot&quot;} {:command &quot;(#\&quot;a string\&quot;)&quot;, :offset 13, :ns &quot;idiot&quot;} {:command &quot;(string? %w{a string})&quot;, :offset 22, :ns &quot;idiot&quot;} {:command &quot;(string? 'a string')&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;('a string')&quot;, :offset 12, :ns &quot;idiot&quot;} {:command &quot;({:foo :bar})&quot;, :offset 13, :ns &quot;idiot&quot;} {:command &quot;({:foo bar})&quot;, :offset 12, :ns &quot;idiot&quot;} {:command &quot;#{:name \&quot;Josie\&quot;}&quot;, :offset 16, :ns &quot;idiot&quot;} {:command &quot;({:items [1 2 3]})&quot;, :offset 18, :ns &quot;idiot&quot;} {:command &quot;(map? {:items [1 2 3]})&quot;, :offset 23, :ns &quot;idiot&quot;} {:command &quot;(map? [[k v]])&quot;, :offset 14, :ns &quot;idiot&quot;} {:command &quot;(map? [[1 2]])&quot;, :offset 14, :ns &quot;idiot&quot;} {:command &quot;(map? #{:name \&quot;Josie\&quot;})&quot;, :offset 23, :ns &quot;idiot&quot;} {:command &quot;(map? {:name \&quot;Josie\&quot;})&quot;, :offset 22, :ns &quot;idiot&quot;} {:command &quot;(comment)&quot;, :offset 9, :ns &quot;idiot&quot;} {:command &quot;(comment? (comment))&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;#(* % %)&quot;, :offset 8, :ns &quot;idiot&quot;} {:command &quot;(fn [x] (* x x))&quot;, :offset 16, :ns &quot;idiot&quot;} {:command &quot;(#(* % %) 5)&quot;, :offset 12, :ns &quot;idiot&quot;} {:command &quot;(fn [x] (* x x) 5)&quot;, :offset 18, :ns &quot;idiot&quot;} {:command &quot;((fn [x] (* x x)) 5)&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;#(* %1 %1)&quot;, :offset 10, :ns &quot;idiot&quot;} {:command &quot;(#(* %1 %1) 5)&quot;, :offset 14, :ns &quot;idiot&quot;} {:command &quot;(* 5)&quot;, :offset 5, :ns &quot;idiot&quot;} {:command &quot;(* 5 2)&quot;, :offset 7, :ns &quot;idiot&quot;} {:command &quot;(f 5)&quot;, :offset 5, :ns &quot;idiot&quot;} {:command &quot;(f 5 3)&quot;, :offset 7, :ns &quot;idiot&quot;} {:command &quot;(coll? [arg1 arg2 &amp; other-args])&quot;, :offset 32, :ns &quot;idiot&quot;} {:command &quot;(coll? [arg1 arg2 &amp;other-args])&quot;, :offset 31, :ns &quot;idiot&quot;} {:command &quot;(coll? '(key1 key2 key3))&quot;, :offset 25, :ns &quot;idiot&quot;} {:command &quot;(coll? {key [item1 item2]})&quot;, :offset 27, :ns &quot;idiot&quot;} {:command &quot;(coll? [{e1} {e2} {e3}])&quot;, :offset 24, :ns &quot;idiot&quot;} {:command &quot;(coll? [{e2} {e3}])&quot;, :offset 19, :ns &quot;idiot&quot;} {:command &quot;(coll? #{a1 b2 c3})&quot;, :offset 19, :ns &quot;idiot&quot;} {:command &quot;(let ((numbers (range 10))) (mapv inc numbers))&quot;, :offset 47, :ns &quot;idiot&quot;} {:command &quot;(let [numbers = (range 10)] (mapv inc numbers))&quot;, :offset 47, :ns &quot;idiot&quot;} {:command &quot;(let [(numbers (range 10))] (mapv inc numbers))&quot;, :offset 47, :ns &quot;idiot&quot;} {:command &quot;(let [numbers (range 10)] (mapv inc numbers))&quot;, :offset 45, :ns &quot;idiot&quot;} {:command &quot;(let [(mapv inc numbers)] where numbers = (range 10))&quot;, :offset 53, :ns &quot;idiot&quot;} {:command &quot;(assoc tree-counts :gum 20)&quot;, :offset 27, :ns &quot;idiot&quot;} {:command &quot;(update tree-counts :gum dec)&quot;, :offset 29, :ns &quot;idiot&quot;} {:command &quot;(assoc-in tree-counts [:gum] dec)&quot;, :offset 33, :ns &quot;idiot&quot;} {:command &quot;(get (assoc-in tree-counts [:gum] dec) :gum)&quot;, :offset 44, :ns &quot;idiot&quot;} {:command &quot;(update tree-counts :gum 20)&quot;, :offset 28, :ns &quot;idiot&quot;} {:command &quot;(assoc tree-counts :gum dec)&quot;, :offset 28, :ns &quot;idiot&quot;} {:command &quot;(update-in tree-counts [:gum] 20)&quot;, :offset 33, :ns &quot;idiot&quot;} {:command &quot;(first numbers)&quot;, :offset 15, :ns &quot;idiot&quot;} {:command &quot;(map f numbers)&quot;, :offset 15, :ns &quot;idiot&quot;} {:command &quot;(def numbers '(2 3 4))&quot;, :offset 22, :ns &quot;idiot&quot;} {:command &quot;(defn f dec)&quot;, :offset 12, :ns &quot;idiot&quot;} {:command &quot;(def f dec)&quot;, :offset 11, :ns &quot;idiot&quot;} {:command &quot;(apply f numbers)&quot;, :offset 17, :ns &quot;idiot&quot;} {:command &quot;(apply dec numbers)&quot;, :offset 19, :ns &quot;idiot&quot;} {:command &quot;(map dec numbers)&quot;, :offset 17, :ns &quot;idiot&quot;} {:command &quot;(parseInt s)&quot;, :offset 12, :ns &quot;idiot&quot;} {:command &quot;(Integer/parseInt s)&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;(Integer.parseInt s)&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;(ns idiot\n  (require ‘[hiccup.core :refer [html]])\n  (:require [clojure.java.io :as io])\n  (:import java.security.MessageDigest\n           (java.io ByteArrayOutputStream ByteArrayInputStream)\n           (java.util.zip DeflaterOutputStream InflaterInputStream)))&quot;, :offset 261, :ns &quot;idiot&quot;} {:command &quot;(keyword? \&quot;keyword\&quot;)&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;(keyword? keyword)&quot;, :offset 18, :ns &quot;idiot&quot;} {:command &quot;(keyword? 'keyword)&quot;, :offset 19, :ns &quot;idiot&quot;} {:command &quot;(keyword? 'keyword')&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;(keyword? *keyword*)&quot;, :offset 20, :ns &quot;idiot&quot;} {:command &quot;(comment )&quot;, :offset 10, :ns &quot;idiot&quot;} {:command &quot;(comment fajjflajlaafda)&quot;, :offset 24, :ns &quot;idiot&quot;} {:command &quot;(def v [{e1} {e2} {e3}])&quot;, :offset 24, :ns &quot;idiot&quot;} {:command &quot;(def v [{1} {2} {4}])&quot;, :offset 21, :ns &quot;idiot&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="idiot" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b55d62f-4e7c-49ce-9cc6-5d4ba7fa63f7" name="Default Changelist" comment="" />
+      <created>1581524170743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581524170743</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="366" key="Github.ShareDialog" timestamp="1595477734562">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state x="550" y="366" key="Github.ShareDialog/0.23.1375.877@0.23.1375.877" timestamp="1595477734562" />
+    <state x="350" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1595477219016">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state x="350" y="296" key="com.intellij.ide.util.TipDialog/0.23.1375.877@0.23.1375.877" timestamp="1595477219016" />
+    <state x="109" y="189" key="new project wizard" timestamp="1595477233518">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state x="109" y="189" key="new project wizard/0.23.1375.877@0.23.1375.877" timestamp="1595477233518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/idiot.clj</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
